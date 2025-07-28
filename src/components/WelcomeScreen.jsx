@@ -32,6 +32,7 @@ export default function WelcomeScreen({ onNext, ...motionProps }) {
                     transition={{ delay: 0.9 }}
                 >
                     Do you even know how much I miss you?
+                    you will get to know from this slide
                 </motion.p>
 
                 <motion.div

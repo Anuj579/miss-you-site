@@ -9,7 +9,7 @@ export default function MessageScreen({ onNext, ...motionProps }) {
     const [isTyping, setIsTyping] = useState(true)
 
     const message =
-        "My darling, every star in this endless sky whispers your name to me. The moon feels lonely without your radiant smile to compete with its glow. Distance is just a number when you mean everything to my heart. You are my sunshine in the darkest nights, my anchor in the stormiest seas. I love you more than all the stars combined💕✨"
+        "Hey [The Person Who always bring smile on my face 😊😊],It already feels a bit empty without you around. I didn’t realize how much your presence brightens everything until you left for the break. I miss our random conversations, your energy, and just having you close by.Even though I know you’re just away for a while, it still feels like something’s missing. I hope you're resting, recharging, and enjoying every moment — but I also hope you know how much you're missed back here.Can’t wait to see you again and catch up on everything. Take care, and come back soon — it's not the same without you.Missing you a lot. 💕✨💛"
 
     useEffect(() => {
         if (currentIndex < message.length) {
